@@ -1,0 +1,19 @@
+﻿  chatbot1.cpp
+D:\crucial files\программирование\c++\chatbot1\chatbot1.cpp(10,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "const"
+D:\crucial files\программирование\c++\chatbot1\chatbot1.cpp(13,6): error C2062: тип "bool" не требуется
+D:\crucial files\программирование\c++\chatbot1\chatbot1.cpp(14,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+D:\crucial files\программирование\c++\chatbot1\chatbot1.cpp(14,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+D:\crucial files\программирование\c++\chatbot1\chatbot1.cpp(26,36): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+D:\crucial files\программирование\c++\chatbot1\chatbot1.cpp(102,21): warning C4138: "*/" найден вне комментария
+D:\crucial files\программирование\c++\chatbot1\chatbot1.cpp(84,13): error C3861: SET_NAME_COMMAND: идентификатор не найден
+C:\Users\mrpoi\Desktop\vcpkg\installed\x86-windows\include\uwebsockets\f2\function2.hpp(1342): message : выполняется компиляция ссылки на экземпляр шаблон функции "auto main::<lambda_2>::operator ()<uWS::WebSocket<false,true>>(_T1 *,std::string_view,uWS::OpCode) const"
+          with
+          [
+              _T1=uWS::WebSocket<false,true>
+          ]
+D:\crucial files\программирование\c++\chatbot1\chatbot1.cpp(50): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "fu2::abi_400::detail::accepts_one<main::<lambda_2>,void (uWS::WebSocket<false,true> *,std::string_view,uWS::OpCode),fu2::abi_400::detail::type_erasure::invocation_table::function_trait<First>>"
+          with
+          [
+              First=void (uWS::WebSocket<false,true> *,std::string_view,uWS::OpCode)
+          ]
+C:\Users\mrpoi\Desktop\vcpkg\installed\x86-windows\include\uwebsockets\f2\function2.hpp(1511): message : выполняется компиляция ссылки на экземпляр псевдоним шаблон функции "fu2::abi_400::detail::function<Config,fu2::abi_400::detail::property<IsThrowing,HasStrongExceptGuarantee,Args...>>::enable_if_can_accept_all_t<main::<lambda_2>>"
